@@ -5,4 +5,5 @@ spring:
     config: 
       server: 
         native: 
+#          searchLocations: file:/config
           searchLocations: file:///${user.home}/repo
